@@ -1,0 +1,52 @@
+.designdetails > p{
+    text-align: center;
+    background-color: rgb(121, 45, 129);
+    color: white;
+    padding: 1%;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin: 2.5% 0;
+}
+.designdetails > h1{
+    font-weight: bold;
+    margin: 0% 5% 2%;
+}
+.mydetails{
+    display: inline-block;
+    margin: 0% 5% 5%;
+    padding: 2%;
+    border: 2px solid rgb(121, 45, 129);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+
+}
+
+table{
+    clear: both;
+    width: 90%;
+    margin: 0 auto 5%;
+    border: 2px solid black;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    border-collapse: collapse;
+}
+td , th{
+    overflow: auto;
+    height: 1.5em;
+    padding: 1%;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+th{
+    font-size: large;
+    color: white;
+    background-color: rgb(121, 45, 129);
+}
+tr:hover{
+    background-color: #FAE6FA;
+}
+caption{
+    margin-bottom: 1%;
+    text-align: left;
+}

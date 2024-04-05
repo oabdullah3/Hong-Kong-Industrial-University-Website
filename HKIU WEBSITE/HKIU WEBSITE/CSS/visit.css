@@ -1,0 +1,79 @@
+.clear{
+    clear: both;
+}
+
+.visitwelcome{
+    width: 90%;
+    margin: 2.5% auto;
+    padding: 0.5%;
+    outline: 2px solid rgb(121, 45, 129);
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.visitwelcome > p{
+    text-align: center;
+    padding: 0.5%;
+}
+
+.location{
+    width: 90%;
+    margin: 3% auto;
+}
+.leftbox{
+    float: left;
+    width: 50%;
+    display: inline-block;
+}
+.leftbox > img{
+    outline: 2px solid rgb(121, 45, 129);
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 100%;
+}
+
+.rightbox{
+    float: right;
+    width: 40%;
+    margin-left: 0% ;
+    padding: 2%;
+    outline: 2px solid rgb(121, 45, 129);
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: inline-block;
+}
+
+.Error{
+    text-align: center;
+    color: red;
+}
+
+.reservation{
+    width: 90%;
+    margin: 0 auto 2.5%;
+}
+.reservation > h2{
+    text-align: center;
+}
+fieldset{
+    margin-top: 2%;
+    padding: 1% 2%;
+    border-radius: 10px;
+}
+label{
+    display: inline-block;
+    width: 102.75px;
+    text-align: right;
+    margin-left: 1%;
+}
+input[type = "submit"]{
+    margin-left: 10%;
+}
+input[type = "reset"]{
+    margin-left: 4%;
+}
+input[type = "text"]{
+   width: 60px;
+}
+input[type = "date"]{
+    width: 200px;
+ }

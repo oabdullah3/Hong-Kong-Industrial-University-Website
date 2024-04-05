@@ -1,0 +1,197 @@
+.welcome{
+   text-align: center; 
+   margin: 2% 0% 0%;
+   font-size: larger;
+   font-weight: bold;
+}
+.clear{
+    clear: both;
+}
+
+/* APPLICATION FORMS */
+.apply{
+    width: 90%;
+    margin: 0% auto;
+    position: relative;
+    height: 100%;
+}
+.mainheading{
+    text-align: center;
+    padding: 1%;
+    font-size: larger;
+}
+.heading{
+    background-color: rgb(121, 45, 129);
+    color: white;
+    margin-top: 1%;
+    text-align: center;
+    padding: 1%;
+    float: left;
+    width: 30%;
+    height: 1.2em;
+    margin-right: 2%;
+    overflow: hidden;
+    outline: 2px solid rgb(121, 45, 129);
+    border-radius: 20px;
+}
+#idstdsheading{
+    margin-right: 0% !important;
+}
+
+.clickedheading{
+    background-color: white;
+    color: black;
+}
+.unclickedheading{
+    background-color: rgb(121, 45, 129);
+    color: white;
+}
+
+
+/* Set the College container encompassing all forms to the wodth of the parent */
+.college{
+    width: 100%;
+    display: none;
+}
+
+/* Form's Design */
+form{
+    float: left;
+    outline: 2px solid rgb(121, 45, 129);
+    width: 28%;
+    margin-top: 2%;
+    margin-right: 2%;
+    border-radius: 20px;
+    padding: 2%;
+    overflow: hidden;
+    background-color: rgb(121, 45, 129);
+}
+.removemargin{
+    margin-right: 0% !important;
+}
+
+#engineering{
+    display: inline-block;
+}
+#engineeringheading{
+    background-color: white;
+    color: black ;
+}
+/* Display the form with a colored background when hovering it */
+/* form:hover{
+    background-color: white;
+} */
+
+/* Hide the Forms by default for each college */
+/* #idstds{
+    display: none;
+}
+#science{
+    display: none;
+} */
+/* #engineering{
+    display: none;
+} */
+
+/* Display forms for a particular college when hover over that college's heading
+#engineeringheading:hover ~ #engineering{
+    display: inline-block;
+}
+#scienceheading:hover ~ #science{
+    display: inline-block;
+}
+#idstdsheading:hover ~ #idstds{
+    display: inline-block;
+} */
+
+/* Continue displaying the forms for a particular college when hovering anywhere over the container holding the form for that college
+#engineering:hover{
+    display: inline-block;
+}
+#science:hover{
+    display: inline-block;
+}
+#idstds:hover{
+    display: inline-block;
+} */
+
+/* Display the heading with colered background for a college when hovering anywhere over the container holding the form for that college 
+#engineering:hover ~ #engineeringheadingcolored{
+    background-color: white;
+    color: black;
+}
+#science:hover ~ #scienceheadingcolored{
+    background-color:white;
+    color: black;
+}
+#idstds:hover ~ #idstdsheadingcolored{
+    background-color: white;
+    color: black;
+} */
+
+/* Display heading with a colored background when hovering over the heading
+#engineeringheading:hover ~ #engineeringheadingcolored{
+    background-color: white; 
+    color: black;
+}
+#scienceheading:hover ~ #scienceheadingcolored{
+    background-color: white; 
+    color: black;
+}
+#idstdsheading:hover ~ #idstdsheadingcolored{
+    background-color: white; 
+    color: black;
+} */
+
+
+
+/* CHOSEN MAJORS TABLE */
+.result{
+    margin: 2% auto;
+    width: 90%;
+}
+.result > h2{
+    margin-bottom: 2%;
+}
+table{
+    clear: both;
+    width: 100%;
+    margin: 2% auto;
+    border: 2px solid black;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    border-collapse: collapse;
+}
+td , th{
+    height: 1.5em;
+    padding: 1%;
+    border: 2px solid black;
+    
+}
+th{
+    font-size: large;
+    color: white;
+    background-color: rgb(121, 45, 129);
+    text-align: left;
+}
+tr:hover{
+    background-color: #FAE6FA;
+}
+tbody tr:nth-child(odd){
+    background-color: rgb(220, 220, 220);
+}
+tbody tr:nth-child(even){
+    background-color: white;
+}
+.result > a{
+    border: 2px solid black;
+    margin: 0 0.5%;
+    padding: 0.5%;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+}
+#tableerror{
+    color: red;
+    text-align: center;
+}

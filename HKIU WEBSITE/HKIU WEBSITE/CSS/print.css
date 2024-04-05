@@ -1,0 +1,113 @@
+/* Intialise Sapcings to 0 */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Links Behaviour */
+    a:link{
+        color: white;
+        text-decoration: none;
+    }
+    a:visited{
+        text-decoration: none;
+        color: #c724b1;
+    }
+    a:hover{
+        color: white;
+        text-decoration: underline;
+        background-color: #c724b1;
+    }
+    a:active{
+        text-decoration: none;
+        color: black;
+    }
+
+
+/* Header */
+    header{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2em;
+        text-align: center;
+        background:-webkit-linear-gradient(top, white, purple);
+        /* background-color: rgb(128, 0, 128); */
+    }
+    header>h1{
+        color: white;
+        font-variant-caps: small-caps;
+        padding-bottom: 2%;
+    }
+    header>img{
+        padding: 2% 0;
+    }
+
+/* Footer */
+footer{
+    clear: both;
+    text-align: center;
+    padding: 2% 0;
+    background-color: purple;
+    color: white;
+}
+footer img{
+    margin-bottom: 2%;
+    background-color: white;
+}
+
+header > h1{
+    font-size: 1em;
+}
+
+.apply, .mainheading, .welcome , #band , nav{
+    display: none;
+}
+
+footer{
+    position: absolute;
+    bottom: 0%;
+}
+
+/* CHOSEN MAJORS TABLE */
+.result{
+    margin: 5% auto;
+    width: 90%;
+}
+.result > h2{
+    margin-bottom: 2%;
+}
+table{
+    clear: both;
+    width: 100%;
+    margin: 2% auto;
+    border: 2px solid black;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    border-collapse: collapse;
+}
+td , th{
+    height: 1.5em;
+    padding: 1%;
+    border: 2px solid black;
+    
+}
+th{
+    font-size: large;
+    text-align: left;
+    color: white;
+}
+.altrow1{
+    background-color: white;
+}
+.altrow2{
+    background-color: rgb(228, 228, 228);
+}
+.result > a{
+    border: 2px solid black;
+    margin: 0 0.5%;
+    padding: 0.5%;
+    border-radius: 10px;
+}
+.result > a{
+    text-decoration: none ;
+    color: black;
+}

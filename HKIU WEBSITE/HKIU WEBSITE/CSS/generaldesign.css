@@ -1,0 +1,111 @@
+/* Intialise Sapcings to 0 */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Links Behaviour */
+    nav a:link{
+        color: white;
+        text-decoration: none;
+    }
+    nav a:visited{
+        text-decoration: none;
+        color: hotpink;
+    }
+
+    nav a{
+        transition: transform 1s linear;
+        -webkit-transition: transform 1s linear;
+    }
+    @keyframes nav {
+        from {background-color: none; color: white;}
+        to {background-color: hotpink; color: white;}
+    }
+    nav a:hover {
+        animation: nav 2s;
+        color: white;
+        background-color: hotpink;
+        transform: scale(1.05,1.05);
+        -webkit-transform: scale(1.1,1.1);
+    
+    }
+    a:active{
+        text-decoration: none;
+        color: black;
+    }
+
+
+/* Header */
+    @keyframes float {
+        0% {
+            transform: translatey(0px);
+        }
+        50% {
+            transform: translatey(-20px);
+        }
+        100% {
+            transform: translatey(0px);
+        }
+    }
+
+    header{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2em;
+        text-align: center;
+        background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%);
+    }
+    header>h1{
+        animation: float 6s ease-in-out infinite;
+        color: white;
+        font-variant-caps: small-caps;
+        padding-bottom: 2%;
+    }
+    header>img{
+        padding: 2% 0;
+    }
+
+
+/* Navigation Bar */
+    nav{
+        margin-top: 0px;
+        padding-top: 0px;
+        text-align: center;
+        background-color: black;
+        height: 2.5em;
+        font-size: 1em;
+    }
+    nav li{
+        line-height: 2.5em;
+        margin: 0% 3%;
+        display: inline;
+    }
+    nav a{
+        padding: 0 1%;
+        font-size: 1.5em;
+        display: inline-block;
+        color: white;
+    }
+
+/* Footer */
+footer{
+    clear: both;
+    text-align: center;
+    padding: 2% 0;
+    background-color: rgb(121, 45, 129);
+    color: white;
+}
+footer img{
+    margin-bottom: 2%;
+    background-color: white;
+}
+footer  a:link{
+    color: white;
+}
+footer a:visited{
+    text-decoration: none;
+    color: hotpink;
+}
+footer a:hover{
+    color: white;
+}

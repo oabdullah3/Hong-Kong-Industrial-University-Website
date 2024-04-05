@@ -1,0 +1,84 @@
+/* Promotional Imagw */
+    body > img{
+        width: 100%;
+        height: min-content;
+        background-color: black;
+        display: block;
+    }
+
+/* Info Block */
+    .info{
+    }
+
+
+/* Info Paragraph */
+    .infoparagraphs{
+        margin: 2.5% auto 0 auto;
+        width: 80%;
+    }
+    .welcome{
+        margin: 0 0% 2.5% 0%;
+        text-align: center;
+        padding: 1%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 20px;
+        outline: 2px solid rgb(121, 45, 129);
+    }
+    .infoboxes>p{
+        float: left;
+        outline: 2px solid rgb(121, 45, 129);
+        width: 18%;
+        overflow: auto;
+        padding: 2%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 20px;
+    }
+    .pfirst{
+        margin: 0%;
+        margin-right: 2%;
+    }
+    .pcentre{
+        margin: 0% 2%;
+    }     
+    .plast{
+        margin: 0%;
+        margin-left: 2%;
+    }  
+    .clear{
+        clear: both !important;
+        height: 0px !important;
+        width: 0px !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+/* Table */
+table{
+    clear: both;
+    width: 80%;
+    margin: 4% auto 2.5%;
+    border: 2px solid black;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-collapse: collapse;
+    text-align: center;
+}
+caption{
+    padding: 1%;
+    font-weight: bold;
+    font-size: x-large;
+    border: 2px solid black;
+    border-bottom: 0px;
+}
+td , th{
+    height: 1.5em;
+    padding: 1%;
+    border: 2px solid black;
+}
+th{
+    font-size: large;
+    color: white;
+    background-color: rgb(121, 45, 129);
+}
+.hoverrow:hover{
+    background-color: #FAE6FA;
+}

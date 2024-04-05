@@ -1,0 +1,52 @@
+/* Welcome */
+    .homewelcome{
+        padding: 1% 5%;
+        margin: 1% auto 1%;
+        width: 90%;
+        text-align: center;
+    }
+
+/* Main Body */
+    .mainbody{
+        margin-bottom: 2.5%;
+        padding-top: 2%;
+    }
+    .mainbody div{
+        padding: 1% 2.5%;
+        outline: 2px solid rgb(121, 45, 129);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        float: left;
+        width: 37.5%;
+        border-radius: 30px;
+    }
+    #clear{
+        box-shadow: none;
+        float: none;
+        clear: both;
+    }
+
+
+/* Info Block  */
+    .basicinfo{
+        margin: 0 2.5% 2.5% 5%;
+        padding-bottom: 2% !important;
+    }
+    dd{
+        margin: left 40px;
+    }
+    dt{
+        font-size: 1.17em; 
+        font-weight: bold;
+    }
+
+/* Map Block */
+    .applymap{
+        margin: 0 5% 2.5% 2.5%;
+    }
+    div>img{
+        margin: 6% 0;
+        width: 100%; 
+    }
+    a>img{
+        width: 56.5%;
+    }

@@ -1,0 +1,64 @@
+.promotionalinfo{
+    width: 90%;
+    margin: 2.5% auto;
+}
+.promotionalinfo > p{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.box{
+    margin-top: 2.5%;
+    padding: 2%;
+    outline: 2px solid rgb(121, 45, 129);
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 2.5%;
+}
+.heading{
+    padding-left: 2.5%;
+    float: left;
+    width: 45%;
+    text-align: center;
+    font-size: xx-large;
+}
+.video{
+    float: right;
+    width: 45%;
+}
+video{
+    width: 100%;
+    outline: 2px solid rgb(121, 45, 129);
+    border-radius: 20px;
+}
+.clear{
+    clear: both;
+}
+
+
+table{
+    clear: both;
+    width: 90%;
+    margin: 0 auto 2.5%;
+    border: 2px solid black;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    border-collapse: collapse;
+}
+td , th{
+    overflow: auto;
+    height: 1.5em;
+    padding: 1%;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+th{
+    font-size: large;
+    color: white;
+    background-color: rgb(121, 45, 129);
+}
+tr:hover{
+    background-color: #FAE6FA;
+}
